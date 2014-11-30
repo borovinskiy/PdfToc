@@ -1,7 +1,13 @@
 PdfToc
 ======
 
-Extract Table of Content (ToC) from PDF file (extract PDF Bookmarks)
+Extract Table of Content (ToC) from PDF file (extract PDF Bookmarks).
+
+Based on Apache PdfBox.
+
+## System requirements
+
+Java
 
 ## Install
 
@@ -11,7 +17,9 @@ Copy ./bin/PdfToc.jar
 
 Get ToC and print in toc.txt
 
- java -jar PdfToc.jar -i "file.pdf" ["toc.txt"]
+```
+java -jar PdfToc.jar -i "file.pdf" ["toc.txt"]
+```
 
 Last string is optional - output txt file. If not set, result print on standard output.
 
@@ -27,15 +35,18 @@ Where:
 
 Example
 
+```
  "Title 1"
    "Title 1.1"
    "Title 1.2"
  "Title 2"
+```
 
 In output file it:
 
+```
  11 0 Title 1
  23 1 Title 1.1
  37 1 Title 1.2
  49 0 Title 2
-
+```

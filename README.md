@@ -3,7 +3,7 @@ PdfToc
 
 Extract Table of Content (ToC) from PDF file (extract PDF Bookmarks).
 
-Based on Apache PdfBox.
+Based on Apache PDFBox https://pdfbox.apache.org
 
 ## System requirements
 

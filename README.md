@@ -9,6 +9,8 @@ Based on Apache PDFBox https://pdfbox.apache.org
 
 Java
 
+PdfToc.jar compiled by Java 1.8.52
+
 ## Install
 
 Copy ./bin/PdfToc.jar

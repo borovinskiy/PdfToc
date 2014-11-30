@@ -19,19 +19,17 @@ Copy ./bin/PdfToc.jar
 java -jar PdfToc.jar -i "file.pdf" ["toc.txt"]
 ```
 
-Get ToC and print in toc.txt
+Get ToC and print in toc.txt:
 
 ```
 java -jar PdfToc.jar -i "file.pdf" "toc.txt"
 ```
 
-Get ToC and pring in standart output
+Get ToC and pring in standart output:
 
 ```
 java -jar PdfToc.jar -i "file.pdf"
 ```
-
-Last string is optional - output txt file. If not set, result print on standard output.
 
 Output format:
 

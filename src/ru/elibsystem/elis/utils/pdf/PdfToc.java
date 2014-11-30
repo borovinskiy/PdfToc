@@ -34,7 +34,7 @@ import org.apache.pdfbox.pdmodel.PDPage;
 /**
  * Extract PdfToc (ToC) from a pdf document in file or standart output.
  *
- * Usage: java ru.elibsystem.elis.utils.pdf.PdfToc -i &lt;input-pdf&gt; [&lt;input-pdf&gt;]
+ * Usage: java -jar PdfToc.jar -i &lt;input-pdf&gt; [&lt;input-pdf&gt;]
  *
  * @author Arsen I. Borovinskiy
  * 
@@ -129,7 +129,7 @@ public class PdfToc
      */
     private static void usage()
     {
-        System.err.println( "Usage: java ru.elibsystem.elis.utils.pdf.PrintBookmarks -i <input-pdf> [<output-pdf>]" );
+        System.err.println( "Usage: java -jar PdfToc.jar -i <input-pdf> [<output-pdf>]" );
     }
 
     /**

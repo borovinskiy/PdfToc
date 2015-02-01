@@ -27,7 +27,7 @@ Get ToC and print in toc.txt:
 java -jar PdfToc.jar -i "file.pdf" "toc.txt"
 ```
 
-Get ToC and pring in standart output:
+Get ToC and print in standart output:
 
 ```
 java -jar PdfToc.jar -i "file.pdf"
